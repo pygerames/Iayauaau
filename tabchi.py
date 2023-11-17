@@ -16,7 +16,7 @@ def put(file,data):
 def font(text):
 	if isinstance(text,str):
 		text = text.lower()
-		return text.translate(text.maketrans('qwertyuiopasdfghjklzxcvbnm-0123456789','ǫᴡᴇʀᴛʏᴜɪᴏᴘᴀsᴅғɢʜᴊᴋʟᴢxᴄᴠʙɴᴍ-𝟎𝟏𝟐𝟑𝟒𝟓𝟔𝟕𝟖𝟗'))
+		return text.translate(text.maketrans('qwertyuiopasdfghjklzxcvbnm-0123456789'))
 	else:
 		return None
 
